@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "rm -rf ./docs-dev ; parcel ./src/*.html --no-cache --no-source-maps --out-dir ./docs-dev --target browser",
-    "build": "rm -rf ./docs ; parcel build ./src/*.html --no-cache --no-source-maps --out-dir ./docs --public-url /three --target browser"
+    "build": "rm -rf ./docs ; parcel build ./src/*.html --no-cache --no-source-maps --out-dir ./docs --public-url /naraberu --target browser"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
